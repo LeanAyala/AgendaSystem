@@ -1,0 +1,48 @@
+::focus{
+    --color: rgb(74, 177, 177);
+    --headings: font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --paragrah: font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    width: 400px;
+    height: auto;
+    padding: 20px 10px;
+    border:2px solid #000 ;
+    margin: 0 auto;
+    margin-top: 200px;
+    box-shadow: 10px 15px 8px rgba(0, 0, 0, 0.3);
+    font-family:var(--paragrah);
+}
+
+.form__title{
+    font-family: var(--headings);
+    font-weight: 500;
+    text-align: center;
+    margin: 10px;
+}
+
+.form__group{
+    max-width: 70%;
+    margin: auto;
+}
+
+.form__input{
+    font-family: var(--paragrah);
+    margin-bottom:10px ;
+}
+.form__input{
+    width: 100%;
+    padding: 5px 5px;
+    margin-left: 10px;
+}
+
+.alerta{
+    background-color: rgba(218, 94, 94, 0.911);
+}
